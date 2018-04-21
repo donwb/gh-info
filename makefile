@@ -6,6 +6,7 @@
 include env
 
 $(info $$KEY is [${API_KEY}])
+$(info $$ORG is [${ORG}])
 
 all:
 	python3 main.py
